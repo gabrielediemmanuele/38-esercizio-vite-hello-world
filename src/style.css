@@ -5,13 +5,26 @@
 }
 
 .container {
-  margin: 10px auto;
+  width: 1000px;
+  margin: 35px auto;
   position: relative;
 }
 
 .app-title {
-  color: rgb(0, 0, 0);
   position: absolute;
-  top: 50px;
-  left: 50px;
+  z-index: 3;
+  top: 245px;
+  left: 312px;
+  color: white;
+}
+
+.container .image {
+  border-radius: 35px;
+  opacity: 0.4;
+  display: block;
+}
+
+.black-screen {
+  background-color: black;
+  border-radius: 35px;
 }

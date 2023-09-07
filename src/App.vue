@@ -17,7 +17,9 @@ export default {
 <template>
   <div class="container">
     <AppTitle class="app-title"></AppTitle>
-    <AppHero class="image"></AppHero>
+    <div class="black-screen">
+      <AppHero class="image"></AppHero>
+    </div>
   </div>
 </template>
 
